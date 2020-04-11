@@ -4,6 +4,8 @@
   "description": "Eugnn",
   "main": "index.js",
   "scripts": {
+    "start":"gulp",
+    "gulp:clean": "gulp clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
