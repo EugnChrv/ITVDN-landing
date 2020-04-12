@@ -2,7 +2,24 @@ header.header
 .header--top
     .container  
         .contacts   
-            a.contact(hred="tel:+3809999999")
-                i.fa.fas("fa-mobile")
+            a.contact(href="tel:+3809999999")
+                i.fas.fa-mobile
                 span.contact__text 654 6545
+
+
+            a.contact(href="mailto:info@gmail.com")
+                i.fas.fa-envelope
+                span.contact__text info@gmail.com
+
+            a.facebook-icon(href="facebok.com")    
+                i.fab.fa-facebook
+                i.fas.fa-fish
+.container
+    .header__bottom   
+        .logo: img.logo__picture(src="images/logo.png" alt="picture")
+    nav.nav
+    -  var items = ['Home', 'About us', 'Our Approch', 'Our Work']
+        each item in items   
+            a.nav__link(href="#")= item
+              
 .header--bottom

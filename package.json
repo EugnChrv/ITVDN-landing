@@ -28,6 +28,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "font-awesome": "^4.7.0",
     "normalize.scss": "^0.1.0"
   }
