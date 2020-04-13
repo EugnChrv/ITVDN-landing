@@ -1,5 +1,16 @@
 @import "../../node_modules/normalize.scss/normalize";
 // @import '/source/styles/global/sprite';
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+
+@import "global/fonts":
+@import "global/vars":
+@import "global/base":
+@import "global/common":
+@import "global/sprite":
+
+@import "sections/header.scss";
+
+
+
