@@ -9,35 +9,35 @@
 
 
 @font-face {
-        font-family: "helvatica-neue-bold";  
-        src: url("../fonts/helvetica-neue-bold.woff") format("woff"),
-        url("../fonts/helvetica-neue-bold.woff2") format("woff2");
-        font-style: normal; 
-        font-weight: bold;
-         }
+    font-family: "helvatica-neue-bold";  
+    src: url("../fonts/helvetica-neue-bold.woff") format("woff"),
+    url("../fonts/helvetica-neue-bold.woff2") format("woff2");
+    font-style: normal; 
+    font-weight: bold;
+    }
 
 
 @font-face {
-        font-family: "helvatica-neue-light";  
-        src: url("../fonts/helvetica-neue-bold.woff") format("woff"),
-        url("../fonts/helvetica-neue-light.woff2") format("woff2");
-        font-style: normal; 
-        font-weight: normal;
-         }
+    font-family: "helvatica-neue-light";  
+    src: url("../fonts/helvetica-neue-bold.woff") format("woff"),
+    url("../fonts/helvetica-neue-light.woff2") format("woff2");
+    font-style: normal; 
+    font-weight: normal;
+    }
 
  @font-face {
-        font-family: "helvatica-neue-regular";  
-        src: url("../fonts/helvetica-neue-regular.woff") format("woff"),
-        url("../fonts/helvetica-neue-regular.woff2") format("woff2");
-        font-style: normal; 
-        font-weight: normal;
-         }
+    font-family: "helvatica-neue-regular";  
+    src: url("../fonts/helvetica-neue-regular.woff") format("woff"),
+    url("../fonts/helvetica-neue-regular.woff2") format("woff2");
+    font-style: normal; 
+    font-weight: normal;
+    }
 
 
 @font-face {
     font-family: "fontawesome";
-    src: url("../fonts/fontawesome.woff");
+    src: url("../fonts/fontawesome.woff"),
     url("../fonts/fontawesome.woff2") format("woff2");
-    font-weight: normal
     font-style: normal;
-}
+    font-weight: normal;;
+    }
