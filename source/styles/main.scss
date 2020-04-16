@@ -1,5 +1,5 @@
 @import "../../node_modules/normalize.scss/normalize";
-@import '/source/styles/global/sprite';
+@import "global/sprite";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
@@ -11,7 +11,9 @@
 @import "global/sprite";
 @import "global/button";
 
-@import "sections/header.scss";
+@import "sections/header";
+@import "sections/nav";
+@import "sections/hero";
 
 
 

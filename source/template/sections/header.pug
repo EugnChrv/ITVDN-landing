@@ -1,28 +1,10 @@
 header.header
-.header--top
-    .container  
-        .contacts   
-            a.contact(href="tel:+3809999999")
-                i.fas.fa-mobile
-                span.contact__text 654 6545
+    .header__top
+        .container  
+            include contact
+    .container
+        .header__bottom   
+            .logo: img.logo__picture(src="images/logo.png" alt="picture")
+            include nav.pug
+            a.button.header__button.button--red(href='#') Free Consultation
 
-
-            a.contact(href="mailto:info@gmail.com")
-                i.fas.fa-envelope
-                span.contact__text info@gmail.com
-
-            a.facebook-icon(href="facebok.com")    
-                i.fab.fa-facebook
-                i.fas.fa-fish
-.container
-    .header__bottom   
-        .logo: img.logo__picture(src="images/logo.png" alt="picture")
-    nav.nav
-    -  var items = ['Home', 'About us', 'Our Approch', 'Our Work']
-        each item in items 
-            if item === 'Home'  
-                a.nav__link.nav__link--active(href="#")= item
-            else
-                a.nav__link(href="#")= item
-        a.botton.header__button.button--red(href='#') Free Consultation
-.header--bottom
