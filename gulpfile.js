@@ -9,6 +9,7 @@ const rename = require('gulp-rename');
 
 
 
+
 /* -------- Server  -------- */
 gulp.task('server', function() {
   browserSync.init({
@@ -37,6 +38,8 @@ gulp.task('styles:compile', function () {
     .pipe(rename('main.min.css'))
     .pipe(gulp.dest('build/css'));
 });
+
+
 
 /* ------------ Sprite ------------- */
 gulp.task('sprite', function(cb) {

@@ -2,6 +2,10 @@
     padding: 99px 0 105px 0;
     text-align: center;
 
+    @media (max-width: 960px) {
+        padding: 40px 0 20px 0;
+    }
+
 
     &__list {
         display: flex;
@@ -13,6 +17,10 @@
 
     &__item{
         width: 25%;
+        
+        @media (max-width: 960px) {
+            width: 100%;
+        }
     }
 
 

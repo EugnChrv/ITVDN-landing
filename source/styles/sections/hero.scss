@@ -1,4 +1,4 @@
-.hero{
+.hero {
     min-height: 59px;
     padding: 174px 0;
     text-align: center;
@@ -17,6 +17,12 @@
         margin-top: 0;
         margin-bottom: 27px;
         font-family: sans-serif;
+
+
+        @media (max-width: 599px) {
+            padding: 100px 20px;
+            min-height: inherit;
+        }
     }
 
     .button--text-uppercase{
@@ -26,5 +32,4 @@
         font-weight: bold;
         letter-spacing: 1px;
     }
-
 }
